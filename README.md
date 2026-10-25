@@ -9,6 +9,21 @@ React (TypeScript, Vite) is the frontend. Python (FastAPI) owns Elexon access, f
 
 **Deployed app:** _pending, to be added before submission._
 
+## Architecture
+
+```mermaid
+flowchart LR
+    User[Energy buyer] --> UI["React + Vite<br/>January overview · Day replay"]
+    UI -->|"/api/summary<br/>/api/analysis"| API["FastAPI routes"]
+    API --> Svc["service.py<br/>use cases"]
+    Svc --> Cache["AsyncTTLCache<br/>one fetch per decision date"]
+    Cache -->|miss| Adapter["elexon.py adapter"]
+    Adapter --> Elexon[("Elexon BMRS<br/>WINDFOR + FUELHH")]
+    Svc --> Domain["analysis.py + summary.py<br/>pure: no-lookahead, metrics"]
+```
+
+More diagrams are in [docs/architecture.md](docs/architecture.md): backend layers, frontend structure, request sequence, forecast selection, cutoff timeline, caching and deployment.
+
 ## What the client sees
 
 - **January overview** (default view): month-wide accuracy for the chosen cutoff, with:
