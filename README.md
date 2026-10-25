@@ -7,7 +7,7 @@ A January 2026 pilot for a UK energy buyer's day-ahead desk. The app shows two t
 
 React (TypeScript, Vite) is the frontend. Python (FastAPI) owns Elexon access, forecast selection and all calculations.
 
-**Deployed app:** _pending, to be added before submission._
+**Deployed app:** https://kjwhrhsz.vercel.app/ · **Demo video:** https://www.youtube.com/watch?v=O7sgtcqmjBE
 
 ## Architecture
 
