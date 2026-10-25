@@ -1,0 +1,538 @@
+{
+  "checkedAtUtc": "2026-10-25T11:21:05.609574+00:00",
+  "cutoffHourUtc": 9,
+  "decisionDays": 31,
+  "matchedHours": 744,
+  "expectedHours": 744,
+  "completeDays": 31,
+  "scope": "Every January 2026 decision date at 09:00 UTC; delivery 2 January through 1 February. Does not test every cutoff hour.",
+  "days": [
+    {
+      "decisionDate": "2026-01-01",
+      "deliveryDate": "2026-01-02",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 3109.9,
+        "biasMw": 3109.9,
+        "rmseMw": 3171.4
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-02",
+      "deliveryDate": "2026-01-03",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 2102.2,
+        "biasMw": 2102.2,
+        "rmseMw": 2463.2
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-03",
+      "deliveryDate": "2026-01-04",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 1146.5,
+        "biasMw": 1146.5,
+        "rmseMw": 1255.4
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-04",
+      "deliveryDate": "2026-01-05",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 1331.7,
+        "biasMw": -55.9,
+        "rmseMw": 1583.9
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-05",
+      "deliveryDate": "2026-01-06",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 2085.0,
+        "biasMw": 1835.3,
+        "rmseMw": 2444.5
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-06",
+      "deliveryDate": "2026-01-07",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 1492.9,
+        "biasMw": 1468.1,
+        "rmseMw": 1733.6
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-07",
+      "deliveryDate": "2026-01-08",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 1949.2,
+        "biasMw": 844.8,
+        "rmseMw": 2153.4
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-08",
+      "deliveryDate": "2026-01-09",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 839.4,
+        "biasMw": 804.9,
+        "rmseMw": 1074.6
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-09",
+      "deliveryDate": "2026-01-10",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 1101.2,
+        "biasMw": -86.1,
+        "rmseMw": 1238.0
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-10",
+      "deliveryDate": "2026-01-11",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 4801.6,
+        "biasMw": 4801.6,
+        "rmseMw": 4853.4
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-11",
+      "deliveryDate": "2026-01-12",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 4868.2,
+        "biasMw": 4868.2,
+        "rmseMw": 5120.9
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-12",
+      "deliveryDate": "2026-01-13",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 1403.3,
+        "biasMw": 156.5,
+        "rmseMw": 1584.5
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-13",
+      "deliveryDate": "2026-01-14",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 1077.4,
+        "biasMw": -84.2,
+        "rmseMw": 1236.1
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-14",
+      "deliveryDate": "2026-01-15",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 1041.8,
+        "biasMw": 1041.8,
+        "rmseMw": 1149.3
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-15",
+      "deliveryDate": "2026-01-16",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 782.8,
+        "biasMw": 352.0,
+        "rmseMw": 926.0
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-16",
+      "deliveryDate": "2026-01-17",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 1726.8,
+        "biasMw": 1726.8,
+        "rmseMw": 1802.2
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-17",
+      "deliveryDate": "2026-01-18",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 1554.8,
+        "biasMw": 1554.8,
+        "rmseMw": 1611.3
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-18",
+      "deliveryDate": "2026-01-19",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 736.1,
+        "biasMw": -730.1,
+        "rmseMw": 812.6
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-19",
+      "deliveryDate": "2026-01-20",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 1054.6,
+        "biasMw": 351.8,
+        "rmseMw": 1438.9
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-20",
+      "deliveryDate": "2026-01-21",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 3658.3,
+        "biasMw": 3658.3,
+        "rmseMw": 3766.5
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-21",
+      "deliveryDate": "2026-01-22",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 2666.4,
+        "biasMw": 2666.4,
+        "rmseMw": 2781.4
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-22",
+      "deliveryDate": "2026-01-23",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 1514.8,
+        "biasMw": 1514.8,
+        "rmseMw": 1600.1
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-23",
+      "deliveryDate": "2026-01-24",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 1925.9,
+        "biasMw": 1925.9,
+        "rmseMw": 2213.3
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-24",
+      "deliveryDate": "2026-01-25",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 1891.2,
+        "biasMw": 1891.2,
+        "rmseMw": 2042.0
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-25",
+      "deliveryDate": "2026-01-26",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 1980.9,
+        "biasMw": 1980.9,
+        "rmseMw": 2206.4
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-26",
+      "deliveryDate": "2026-01-27",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 3479.1,
+        "biasMw": 3479.1,
+        "rmseMw": 3578.4
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-27",
+      "deliveryDate": "2026-01-28",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 5374.8,
+        "biasMw": 5374.8,
+        "rmseMw": 5399.4
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-28",
+      "deliveryDate": "2026-01-29",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 1739.0,
+        "biasMw": 1739.0,
+        "rmseMw": 1775.1
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-29",
+      "deliveryDate": "2026-01-30",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 1371.7,
+        "biasMw": 1371.7,
+        "rmseMw": 1590.7
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-30",
+      "deliveryDate": "2026-01-31",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 2390.2,
+        "biasMw": 2390.2,
+        "rmseMw": 2490.5
+      },
+      "warnings": []
+    },
+    {
+      "decisionDate": "2026-01-31",
+      "deliveryDate": "2026-02-01",
+      "coverage": {
+        "forecastPeriods": 24,
+        "matchedPeriods": 24,
+        "expectedPeriods": 24,
+        "forecastResolutionMinutes": 60,
+        "actualHalfHours": 48
+      },
+      "metrics": {
+        "maeMw": 1008.1,
+        "biasMw": 983.0,
+        "rmseMw": 1067.9
+      },
+      "warnings": []
+    }
+  ]
+}

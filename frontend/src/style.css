@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+:root{font-family:'DM Sans',Arial,sans-serif;color:#1a2b30;background:#f5f7f7;font-synthesis:none}*{box-sizing:border-box}body{margin:0}button,input,select{font:inherit}.shell{display:flex;min-height:100vh}.sidebar{width:246px;flex:none;background:#123536;color:#d7e5e1;display:flex;flex-direction:column;padding:28px 16px}.brand{display:flex;gap:10px;align-items:center;padding:0 12px;font:700 21px 'Space Grotesk',sans-serif;color:white}.brand small{font:500 11px 'DM Sans';text-transform:uppercase;letter-spacing:.12em;color:#8bc7b1}.brand-mark{color:#8fe6ba;font-size:29px}.side-label{font-size:10px;letter-spacing:.14em;color:#83a7a0;margin:55px 12px 14px}.nav{padding:13px 12px;border-radius:8px;font-weight:600;font-size:13px;display:flex;gap:12px}.nav.active{background:#235651;color:#fff}.side-footer{margin-top:auto;border-top:1px solid #345857;padding:18px 11px 0;font-size:11px;color:#a7c2bc}.status-dot{display:inline-block;width:7px;height:7px;background:#98e2ad;border-radius:50%;margin-right:6px}.main{width:min(100%,1500px);padding:0 44px 36px}.topbar{height:70px;border-bottom:1px solid #dfe6e5;display:flex;align-items:center;justify-content:space-between;color:#6b8080;font-size:12px}.breadcrumb span{padding:0 9px;color:#a9b8b7}.pill{border:1px solid #d8e4df;border-radius:20px;padding:7px 12px;background:white;color:#487267;font-weight:600}.hero{padding:34px 0 24px}.eyebrow{font-size:10px;letter-spacing:.14em;font-weight:700;color:#2a8c76}.hero h1{font:700 33px 'Space Grotesk';margin:8px 0}.hero p{margin:0;color:#657678;font-size:14px}.controls{background:white;border:1px solid #e2e9e8;border-radius:12px;padding:18px;display:flex;align-items:end;gap:16px;box-shadow:0 2px 12px #193b3909}.control{display:flex;flex-direction:column;gap:7px}.control label{font-size:11px;color:#6c7e7d;font-weight:700}.control input,.control select{height:38px;min-width:165px;padding:0 10px;border:1px solid #d9e3e1;border-radius:7px;background:#fff;color:#25413e;font-weight:600;font-size:12px}.control-info{margin-left:auto;display:flex;flex-direction:column;gap:5px;font-size:12px;color:#718483}.control-info strong{color:#294c47}.notice{margin-top:18px;padding:13px 16px;background:#e9f5f0;border:1px solid #cde8d9;border-radius:8px;color:#285a48;font-size:13px}.notice.error{background:#fff1ee;border-color:#f0d0c8;color:#904539}.notice button{margin-left:10px;background:#fff;border:1px solid currentColor;border-radius:5px;padding:4px 10px;color:inherit;cursor:pointer}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:18px 0}.metric,.panel{background:white;border:1px solid #e2e9e8;border-radius:12px;box-shadow:0 2px 12px #193b3909}.metric{padding:20px}.metric-label{text-transform:uppercase;font-weight:700;letter-spacing:.08em;color:#70817f;font-size:10px}.metric-value{font:700 27px 'Space Grotesk';margin:9px 0 5px;color:#183a37}.metric-note{color:#899895;font-size:11px}.panel{padding:22px}.panel-heading{display:flex;justify-content:space-between;align-items:start;gap:20px}.panel h2{font:700 18px 'Space Grotesk';margin:6px 0 0}.legend{display:flex;gap:20px;color:#637775;font-size:11px;padding-top:16px}.legend span{white-space:nowrap}.legend-line{display:inline-block;width:23px;height:3px;vertical-align:middle;margin-right:5px}.legend-line.forecast{background:#1e9a78}.legend-line.actual{background:#d2934e}.chart-scroll{overflow-x:auto}.chart-scroll svg{width:100%;min-width:650px;margin-top:20px;display:block}.grid{stroke:#e5edeb;stroke-width:1}.axis,.axis-title{fill:#8d9d9a;font:11px 'DM Sans'}.line{fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.line.forecast{stroke:#1e9a78}.line.actual{stroke:#d2934e}.chart-empty{padding:60px;text-align:center;color:#83928f}.panel-foot{border-top:1px solid #edf1f0;padding-top:12px;font-size:11px;color:#8d9d9a}.lower{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}.lower p,.lower li{line-height:1.6;font-size:12px;color:#667a77}.lower ol{padding-left:17px}.lower li{margin:6px 0}.callout{margin-top:18px;background:#eef7f4;border-left:3px solid #2b9d7e;padding:14px}.callout-title{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:#538275;margin-bottom:6px}.callout strong{font:700 23px 'Space Grotesk';color:#1e6556}.callout span{font-size:12px;color:#637b74}.callout p{margin:5px 0 0}.fine{border-top:1px solid #edf1f0;padding-top:12px}.table-panel{padding-bottom:8px}.subtle{font-size:11px;color:#8a9b98}.table-scroll{overflow:auto;margin-top:18px;max-height:360px}table{border-collapse:collapse;width:100%;font-size:11px}th{text-align:left;position:sticky;top:0;background:#f5f9f8;color:#69807b;font-size:10px;text-transform:uppercase;letter-spacing:.06em}td,th{padding:11px 12px;border-bottom:1px solid #edf2f1;white-space:nowrap}td{color:#455c58}td.positive{color:#af5d42;font-weight:700}td.negative{color:#25836c;font-weight:700}footer{padding:24px 0;color:#9aa9a5;font-size:11px}@media(max-width:900px){.sidebar{display:none}.main{padding:0 20px 28px}.metrics{grid-template-columns:repeat(2,1fr)}.lower{grid-template-columns:1fr}.control-info{display:none}}@media(max-width:560px){.topbar .pill{display:none}.hero h1{font-size:27px}.controls{align-items:stretch;flex-direction:column}.control input,.control select{width:100%}.metrics{grid-template-columns:1fr 1fr;gap:8px}.metric{padding:13px}.metric-value{font-size:19px}.panel-heading{display:block}.legend{flex-wrap:wrap}}
+
+/* January overview */
+.tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+.tabs button {
+  border: 1px solid #d8e4df;
+  background: #fff;
+  color: #487267;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+}
+.tabs button.active {
+  background: #123536;
+  border-color: #123536;
+  color: #fff;
+}
+.callout-panel {
+  margin-bottom: 16px;
+  border-left: 3px solid #2b9d7e;
+}
+.callout-panel .lead {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #294c47;
+  margin: 8px 0 10px;
+}
+.callout-panel .lead strong {
+  color: #1e6556;
+}
+.panel + .panel {
+  margin-top: 16px;
+}
+.zero {
+  stroke: #9fb3af;
+  stroke-width: 1;
+}
+.bar rect:not(.hit) {
+  fill: #c9d6d3;
+}
+.bar.neutral rect:not(.hit) {
+  fill: #1e9a78;
+}
+.bar.over rect:not(.hit) {
+  fill: #d2934e;
+}
+.bar.under rect:not(.hit) {
+  fill: #2f7f9b;
+}
+.bar .hit {
+  fill: transparent;
+}
+.bar.interactive {
+  cursor: pointer;
+}
+.bar.interactive:hover rect:not(.hit),
+.bar.interactive:focus-visible rect:not(.hit),
+.bar.selected rect:not(.hit) {
+  fill: #123536;
+}
+.bar.interactive:focus-visible {
+  outline: none;
+}
+.bar.interactive:focus-visible .hit {
+  stroke: #123536;
+  stroke-width: 1.5;
+}
+.legend-swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.legend-swatch.over {
+  background: #d2934e;
+}
+.legend-swatch.under {
+  background: #2f7f9b;
+}
+.control select {
+  min-width: 220px;
+  max-width: 100%;
+}
+.main {
+  min-width: 0;
+}
+.controls {
+  flex-wrap: wrap;
+}
+
+/* Day chart hover */
+.chart-frame {
+  position: relative;
+  min-width: 650px;
+}
+.chart-frame svg {
+  min-width: 0;
+}
+.hover-zone {
+  fill: transparent;
+  cursor: crosshair;
+}
+.hover-guide {
+  stroke: #9fb3af;
+  stroke-width: 1;
+  stroke-dasharray: 3 3;
+}
+.chart-tooltip {
+  position: absolute;
+  transform: translateX(12px);
+  pointer-events: none;
+  background: #fff;
+  border: 1px solid #dfe8e6;
+  border-radius: 8px;
+  box-shadow: 0 6px 20px #193b3922;
+  padding: 10px 12px;
+  min-width: 190px;
+  font-size: 12px;
+  color: #455c58;
+}
+.chart-tooltip.flip {
+  transform: translateX(calc(-100% - 12px));
+}
+.tooltip-time {
+  font-weight: 700;
+  color: #183a37;
+  margin-bottom: 6px;
+}
+.tooltip-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 3px 0;
+}
+.tooltip-row b {
+  margin-left: auto;
+  color: #183a37;
+}
+.tooltip-row b.positive {
+  color: #af5d42;
+}
+.tooltip-row b.negative {
+  color: #25836c;
+}
+.tooltip-row .legend-line {
+  margin-right: 0;
+}
+.tooltip-note {
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid #edf1f0;
+  font-size: 11px;
+  color: #8a9b98;
+}
