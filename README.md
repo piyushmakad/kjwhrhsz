@@ -46,7 +46,7 @@ Elexon's WINDFOR covers wind farms with operational metering, while FUELHH repor
 | `backend/app/analysis.py` | Pure domain logic for one day: no-lookahead selection, alignment and metrics |
 | `backend/app/summary.py` | Pure month aggregation: pooled metrics, percentiles, by-hour and by-day breakdowns |
 | `backend/app/schemas.py` | Pydantic response contracts, published through OpenAPI at `/docs` |
-| `backend/api/index.py`, `backend/vercel.json` | Vercel serverless entry point |
+| `vercel.json`, `backend/index.py` | Vercel config (one project, FastAPI + Vite services) and the backend entry point |
 | `backend/scripts/verify_january.py` | Opt-in live check of every January decision date; writes `docs/evidence/` |
 | `backend/tests/` | Unit and API tests (no network) |
 | `frontend/src/features/wind-replay/` | Page, components, API calls, query hooks, types and formatting |
@@ -121,10 +121,15 @@ Successful responses also send `Cache-Control: s-maxage=86400`, so the Vercel CD
 
 ## Deploy on Vercel
 
-Create two Vercel projects from this repository:
+The root `vercel.json` deploys everything as **one Vercel project** using two services:
+- `backend` (FastAPI) receives `/api/*`.
+- `frontend` (Vite) serves everything else.
 
-1. **Backend:** root directory `backend`, entry point `api/index.py`. Set `FRONTEND_ORIGIN` to the frontend URL.
-2. **Frontend:** root directory `frontend`, framework Vite. Set `VITE_API_BASE_URL` to the backend URL.
+Both are on the same domain, so no CORS setup or API URL variable is needed.
+
+1. In Vercel, go to **Add New → Project** and import the repository. Leave **Root Directory** as the repository root.
+2. Click **Deploy**.
+3. Check `https://<your-app>.vercel.app/api/health`, which should return `{"status":"ok"}`. Then open the app itself.
 
 ## Limitations
 

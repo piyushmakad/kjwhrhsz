@@ -70,8 +70,8 @@ This is an operational comparison rather than a formal benchmark of the forecast
 
 Docker Compose builds the React bundle into an Nginx image and runs FastAPI as a separate container. Nginx proxies `/api` to the backend, so the local app is served from one origin.
 
-On Vercel, two projects are created from the same repository:
-- a Python project for the FastAPI backend
-- a Vite project for the frontend
+On Vercel, the root `vercel.json` defines one project with two services:
+- `backend`: FastAPI, receiving `/api/*`
+- `frontend`: Vite, serving everything else
 
-The backend's allowed CORS origin and the frontend's API URL are set through environment variables.
+They share one domain, so the frontend calls a relative `/api` path, as it does locally. `FRONTEND_ORIGIN` and `VITE_API_BASE_URL` are only needed if the backend is ever hosted on a separate domain.
